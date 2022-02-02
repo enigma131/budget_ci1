@@ -1,6 +1,6 @@
-# budget_ci
+# budget_ci1
 
-This module source will create a new Linux kernel CI module with correcions for CI init. This module is part of my TechnoTrend TT-budget S2-3200 PCI card and also in other devices.
+This module source will create a new Linux kernel CI module with correcions for CI init. This module is part of my TechnoTrend TT-budget S2-3200 PCI card and also in other devices. This repository includes minimal modifications.
 
 Total changes from Linux sources are in separate file [ListOfChanges](ListOfChanges). 
 
@@ -12,17 +12,17 @@ To compile the driver, you need to have make, compiler and kernel headers instal
 
 Next, get the repository to local:
 
-    git clone https://github.com/enigma131/budget_ci.git
+    git clone https://github.com/enigma131/budget_ci1.git
 
 If different kernel, you have to adjust the right path for KERNSRC and KERNELSOURCE in Makefile:
 
-    nano budget_ci/Makefile 
+    nano budget_ci1/Makefile 
 
 If changes made, save the file then exit nano.
 
 Initialize the DKMS structure:
 
-    sudo dkms add ./budget_ci
+    sudo dkms add ./budget_ci1
 
 Compile source / Install DKMS:
 
