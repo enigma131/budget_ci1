@@ -1,6 +1,6 @@
 # budget_ci1
 
-This module source will create a new Linux kernel CI module with correcions for CI init. This module is part of my TechnoTrend TT-budget S2-3200 PCI card and also in other devices. This repository includes minimal modifications.
+This module source will create a replacement Linux kernel CI module with correcions for CI init. This module is part of my TechnoTrend TT-budget S2-3200 PCI card and also in other devices. This repo is a simplified version of [budget_ci](https://github.com/enigma131/budget_ci)
 
 Total changes from Linux sources are in separate file [ListOfChanges](ListOfChanges). 
 
